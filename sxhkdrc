@@ -1,0 +1,74 @@
+# BASICS:
+alt + w
+    firefox
+alt + r
+    $TERMINAL -e ranger
+
+alt + s
+    /bin/spotify
+
+alt + shift + t
+    /bin/telegram-desktop
+    
+alt + shift + l
+    /usr/local/bin/slock
+
+alt + control + p
+    /usr/local/bin/st -e pulsemixer
+
+alt + shift + b
+    /bin/blueman-manager 
+
+alt + control + d
+    /home/lugges/.scripts/doi2bib
+
+alt + e
+    /home/lugges/.scripts/email_launch
+
+alt + shift + p
+    /home/lugges/.scripts/power_dmenu
+
+# TOP KEYS
+
+alt + button8
+    /home/lugges/.scripts/shot
+
+alt + shift + button8
+    /bin/flameshot
+
+alt + button9
+    xclip -selection clipboard -o
+
+alt + less
+    /home/lugges/.scripts/shot
+
+alt + control + s
+    /home/lugges/.scripts/fshot
+
+XF86MonBrightnessUp
+    xbacklight -inc 5
+
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
+XF86AudioMute		    
+     lmc mute
+
+XF86AudioLowerVolume	
+     lmc down 5
+
+shift + XF86AudioLowerVolume	
+     lmc down 10
+
+control + XF86AudioLowerVolume	
+     lmc down 1
+
+XF86AudioRaiseVolume	
+     lmc up 5
+
+shift + XF86AudioRaiseVolume	
+     lmc up 10
+
+control + XF86AudioRaiseVolume	
+     lmc up 1
+
